@@ -1,0 +1,186 @@
+/* ------------------- Main Content ---------------------*/
+* { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+html {
+	overflow: auto;
+}
+
+body {
+	font-size: 110%;
+	min-height: 100%;
+	width: 100%;
+	padding-top: 100px;
+	margin-top: 40px;
+	text-align: center;
+	background: url('images/bg4.jpg') fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  }
+
+.header {
+	width: 35vw;
+	margin: 70px auto 0px;
+	margin-left: 31.5vw;
+	color: white;
+	background: rgb(35, 89, 116);
+	text-align: center;
+	border: 1px solid rgb(80, 78, 78);
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 35vw;
+	margin: auto ;
+	margin-left: 31.5vw;
+	padding: 20px;
+	border: 1px solid rgb(80, 78, 78);
+	background: #bcd9e3;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* -------------------- Inputs -- background: -------------------- */
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+/* ------------------- Buttons -------------------------*/
+.btn {
+	padding: 10px;
+	font-size: 17px;
+	color: white;
+	background: #4b5454;
+	border: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 #1b6f6f;
+    transform:  translateY(-0.9);
+    transition: transform 150ms;
+}
+/* Navigation Buttons  */
+  .navigate {
+	color: white;
+	background-color: #074b4b;
+	padding: 0.2em 1.5em;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.navigate:hover {
+	font-size: 100%;
+	background-color: white;
+	color: #074b4b;
+}
+
+/* ------------------- States ------------------------ */
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ------------------- Copyrights ---------------------*/
+#copyrights {
+	background: #222222;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+
+/* -------------------- sidebar ----------------------- */
+.sidebar {
+	margin: 0px;
+	height: 4%;
+	overflow: hidden;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border: 2px solid rgb(167, 169, 181);
+	border-left: none;
+	border-top: none;	
+	border-right: none;
+	border-bottom: 100%;
+}
+.sidebar #header-log {
+	font-family: 'kasaBbatoxbold', 'Georgia', 'serif';
+	font-size: 200%;
+	color: white;
+}
+
+/* -------------------- Responsive ----------------------- */
+@media only screen and (max-width: 768px) {
+	.sidebar {
+		height: 4%;
+	}
+  }
+
+@media only screen and (max-width: 992px) {
+.sidebar {
+	height: 4%;
+	padding-bottom: 2vw;
+}
+}
+
+  
+
