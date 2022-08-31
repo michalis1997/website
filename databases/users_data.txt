@@ -1,0 +1,5 @@
+id: 1  -  username: Antreas  -  email: antreashadh@gmail.com  -  user_type: user  -  password: Antreashadh25@
+id: 2  -  username: Orestis  -  email: orestispa@gmail.com    -  user_type: user  -  password: Orestispa25@
+id: 3  -  username: Mixalis  -  email: mixalisni@gmail.com    -  user_type: user  -  password: Mixalisni25@
+id: 4  -  username: Kostantinos  -  email: kostantinos@gmail.com  -  user_type: admin  -  password: Kostantinos25@
+id: 5  -  username: Giorgos      -  email: giorgos25@gmail.com    -  user_type: user   -  password: Giorgos25@
